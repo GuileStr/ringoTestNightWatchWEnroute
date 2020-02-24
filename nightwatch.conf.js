@@ -47,6 +47,7 @@ module.exports = {
     firefox: {
       desiredCapabilities : {
         browserName : 'firefox',
+        elementScrollBehaivor:1,
         alwaysMatch: {
           // Enable this if you encounter unexpected SSL certificate errors in Firefox
           // acceptInsecureCerts: true,
